@@ -1,49 +1,0 @@
-Brownie v1.16.4 - Python development framework for Ethereum
-
-UpgradesProject is the active project.
-
-Running 'scripts\01_deploy_box.py::main'...
-Deploying to kovan
-Transaction sent: 0xc3f36a72f70af817896591ea821cf54d528b99808d47bd1c3a078329298a298a
-  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Gas price: 5.0 gwei   Gas limit: 113404   Nonce: 70
-  Box.constructor confirmed   Block: 28608780   Gas used: 103095 (90.91%)
-  Box deployed at: 0xfC0b0E3DA81F9Cc7C6E1Fa6cb0E119D0Dd5ef2E7
-
-box deployed at 0xfC0b0E3DA81F9Cc7C6E1Fa6cb0E119D0Dd5ef2E7
-Transaction sent: 0xec48131c8711818d98498500ef2f129557d368ff5469f13de71e87c77a014368
-  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Gas price: 5.0 gwei   Gas limit: 534673   Nonce: 71
-  ProxyAdmin.constructor confirmed   Block: 28608781   Gas used: 486067 (90.91%)
-  ProxyAdmin deployed at: 0xeD4450172701DCc51F27e720C7Ae6F85331B7E84
-
-ProxyAdmin deployed at 0xeD4450172701DCc51F27e720C7Ae6F85331B7E84
-Transaction sent: 0xc331f68bdc73211168eaddcfa6708650aef3c00a82312db1a93be0e8b4336c49
-  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Gas price: 5.0 gwei   Gas limit: 1000000   Nonce: 72
-  TransparentUpgradeableProxy.constructor confirmed   Block: 28608782   Gas used: 587516 (58.75%)
-  TransparentUpgradeableProxy deployed at: 0x9ACa843B989d23D042499cBEcaB97DB1a88E0EC9
-
-Proxy deployed to 0x9ACa843B989d23D042499cBEcaB97DB1a88E0EC9, you can now upgrade to v2!
-Transaction sent: 0x79e06602b2841f960e267d5701e6b7f96f2abbf4b29e47af0d9fc8fdc5884f50
-  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Gas price: 5.0 gwei   Gas limit: 57466   Nonce: 73
-  Transaction confirmed   Block: 28608783   Gas used: 51909 (90.33%)
-
-New Value : 1
-Transaction sent: 0x2eaf7b3b95ae090d173a575601e0242580497bfdc3550a2c35110915a94aae5e
-  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Gas price: 5.0 gwei   Gas limit: 146012   Nonce: 74
-  BoxV2.constructor confirmed   Block: 28608784   Gas used: 132739 (90.91%)
-  BoxV2 deployed at: 0x73e923Ed6Aa9869fAE8C8CE1E2e0bD6FBA1A3bA6
-
-Transaction sent: 0xd64a9163f8ee64d080cc5f826a87c47b97ee9daaba815fc9b9d41af3957f8911
-  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Gas price: 5.0 gwei   Gas limit: 42787   Nonce: 75
-  ProxyAdmin.upgrade confirmed   Block: 28608785   Gas used: 38760 (90.59%)
-
-  ProxyAdmin.upgrade confirmed   Block: 28608785   Gas used: 38760 (90.59%)
-
-proxy has been upgraded!
-Starting value 1
-Transaction sent: 0x47032975122d5d213e4f0b49908f9eb7cdcacedfb76451584b6d974aa984e13e
-  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Gas price: 5.0 gwei   Gas limit: 38218   Nonce: 76
-  Transaction confirmed   Block: 28608786   Gas used: 34682 (90.75%)
-
-  Transaction confirmed   Block: 28608786   Gas used: 34682 (90.75%)
-
-New Value from BoxV2: 2
