@@ -1,9 +1,9 @@
 dependencies:
-  - OpenZeppelin/openzeppelin-contracts@4.1.0
+  - OpenZeppelin/openzeppelin-contracts@4.4.0
 compiler:
   solc:
     remappings:
-      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.1.0"
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.4.0"
 
 dotenv: .env
 networks:
@@ -14,6 +14,6 @@ networks:
   ganache:
     verify: False
   kovan:
-    verify: True
+    verify: False
 wallets:
   from_key: ${PRIVATE_KEY}
