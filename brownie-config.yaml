@@ -10,10 +10,10 @@ networks:
   development:
     verify: False
   rinkeby:
-    verify: False
+    verify: True
   ganache:
     verify: False
   kovan:
-    verify: False
+    verify: True
 wallets:
   from_key: ${PRIVATE_KEY}

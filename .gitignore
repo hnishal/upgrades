@@ -6,5 +6,3 @@ build/
 reports/
 error_rinkeby_False.txt
 error_rinkeby_true.txt
-output-rinkeby.txt
-output.txt

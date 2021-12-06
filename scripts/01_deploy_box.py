@@ -34,7 +34,7 @@ def main():
         proxy_admin.address,
         box_encoded_initializer_function,
         {"from": account, "gas_limit": 1000000},
-        publish_source=config["networks"][network.show_active()]["verify"]
+        # publish_source=config["networks"][network.show_active()]["verify"]
         # added gas limit to be safe sometimes proxy have hasrd time figuring out gas
     )
     print(f"Proxy deployed to {proxy}, you can now upgrade to v2!")
